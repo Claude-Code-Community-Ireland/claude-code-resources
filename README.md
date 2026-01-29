@@ -2,7 +2,7 @@
 
 Developer workflow skills, agents, and commands for Claude Code.
 
-**18 skills** | **8 agents** | **10 commands** | Covers the full SDLC
+**34 skills** | **34 agents** | **21 commands** | **2 MCP servers** | Covers the full SDLC
 
 ## Install
 
@@ -57,6 +57,22 @@ Skills are reference knowledge that Claude loads automatically based on context.
 | `security-review` | OWASP Top 10, auth, input validation |
 | `logging-observability` | Structured logging, metrics, distributed tracing |
 | `incident-response` | Triage, mitigation, post-incident review |
+| `plugin-structure` | Plugin directory layout, manifest configuration |
+| `agent-development` | Agent structure, system prompts, triggering |
+| `command-development` | Slash command structure, YAML frontmatter |
+| `hook-development` | Event hooks, PreToolUse/PostToolUse/Stop handlers |
+| `skill-development` | Skill creation, progressive disclosure |
+| `mcp-integration` | Model Context Protocol server configuration |
+| `plugin-settings` | Plugin configuration and state files |
+| `design-patterns` | Proven UI design patterns and component templates |
+| `quality-standards` | Quality gates, scoring rubrics, acceptance criteria |
+| `design-ui` | Accessibility-first design, anti-vibe-code patterns |
+| `discord` | Discord server management and moderation |
+| `start-of-day` | Daily project sync, git check, status report |
+| `finish-the-day` | End-of-day wrap-up, commit, push |
+| `ui-ux-pro-max` | 50 styles, 21 palettes, 50 font pairings, 9 stacks |
+| `community-code-reviewer` | Code review for correctness, security, performance |
+| `conventional-commits` | Conventional commit message generation |
 
 ### Agents
 
@@ -72,6 +88,32 @@ Agents are specialized autonomous workers that Claude delegates to for focused t
 | `refactorer` | Named refactoring patterns with test verification at each step | Sonnet |
 | `security-auditor` | OWASP-focused security review with severity ratings and remediation | Sonnet |
 | `test-strategist` | Analyzes test suite gaps, pyramid balance, and quality issues | Sonnet |
+| `code-architect` | Designs feature architectures with implementation blueprints | Sonnet |
+| `code-explorer` | Deep codebase analysis, tracing execution paths | Sonnet |
+| `code-reviewer` | Reviews code with confidence-based filtering | Sonnet |
+| `code-simplifier` | Simplifies code for clarity and maintainability | Sonnet |
+| `agent-creator` | Guided agent creation workflow | Sonnet |
+| `plugin-validator` | Validates plugin structure and components | Sonnet |
+| `skill-reviewer` | Reviews skill quality and effectiveness | Sonnet |
+| `design-reviewer` | Orchestrates parallel critic agents for design review | Sonnet |
+| `design-generator` | Creates production-ready HTML, CSS, design tokens | Sonnet |
+| `design-researcher` | Sector-specific patterns and competitor analysis | Sonnet |
+| `design-orchestrator` | Coordinates multi-agent design workflows | Sonnet |
+| `typography-critic` | Font pairing, hierarchy, readability auditing | Haiku |
+| `color-judge` | Contrast, color harmony, emotional impact | Haiku |
+| `spatial-auditor` | Grid, spacing, alignment, whitespace | Haiku |
+| `vibe-code-detector` | Detects generic AI patterns, ensures uniqueness | Haiku |
+| `3d-modeler` | Three.js/R3F photorealistic 3D scenes | Sonnet |
+| `shader-artist` | Custom WebGL shaders and visual effects | Sonnet |
+| `interaction-designer` | Camera controls, mouse tracking, responsive behaviors | Sonnet |
+| `animation-choreographer` | Complex GSAP animations with self-refinement | Sonnet |
+| `performance-auditor` | Lighthouse audits and performance analysis | Haiku |
+| `accessibility-critic` | WCAG compliance, keyboard nav, screen readers | Haiku |
+| `brand-alignment-critic` | Brand personality and visual identity | Haiku |
+| `design-performance-critic` | CSS efficiency and asset optimization | Haiku |
+| `design-review` | Comprehensive front-end PR design review | Sonnet |
+| `pragmatic-code-review` | Pragmatic code review balancing quality and velocity | Opus |
+| `community-refactor-agent` | Code refactoring with test verification | Sonnet |
 
 ### Commands
 
@@ -89,6 +131,17 @@ Commands are slash commands you invoke directly.
 | `/git-flow [action]` | Git workflow help (branch, commit, pr, merge, conflict) |
 | `/adr [topic]` | Create an Architecture Decision Record |
 | `/retro [period]` | Retrospective analysis of recent git history |
+| `/feature-dev` | Guided feature development workflow |
+| `/code-review` | Automated PR code review |
+| `/create-plugin` | Guided plugin creation |
+| `/design-ui` | Multi-agent UI design generation |
+| `/review-ui` | Design quality review pipeline |
+| `/design-review` | Front-end PR design review |
+| `/pragmatic-review` | Pragmatic code review |
+| `/security-scan` | Security-focused code review |
+| `/ralph-loop` | Start self-referential iteration loop |
+| `/cancel-ralph` | Cancel active Ralph loop |
+| `/ralph-help` | Ralph Loop plugin help |
 
 ## Usage Examples
 

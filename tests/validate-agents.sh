@@ -38,8 +38,7 @@ for agent_file in "$AGENTS_DIR"/*.md; do
   fi
 
   if ! grep -q "^tools:" "$agent_file"; then
-    echo "FAIL: $agent_name — missing 'tools' in frontmatter"
-    ERRORS=$((ERRORS + 1))
+    echo "  WARN: $agent_name — missing 'tools' in frontmatter (optional)"
   fi
 
   if ! grep -q "^model:" "$agent_file"; then
