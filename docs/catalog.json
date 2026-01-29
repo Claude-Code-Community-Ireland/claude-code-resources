@@ -1,0 +1,256 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-01-29T17:40:26.662Z",
+  "stats": {
+    "total": 7,
+    "byType": {
+      "skill": 2,
+      "agent": 1,
+      "claude-md": 2,
+      "prd": 1,
+      "prompt": 1
+    },
+    "byCategory": {
+      "development": 2,
+      "coding": 1,
+      "by-framework": 1,
+      "by-language": 1,
+      "templates": 1,
+      "task-prompts": 1
+    }
+  },
+  "resources": [
+    {
+      "id": "skills-development-code-reviewer",
+      "type": "skill",
+      "path": "skills/development/code-reviewer",
+      "name": "Code Reviewer",
+      "description": "Perform thorough, constructive code reviews checking for correctness, security, performance, and maintainability",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Community Ireland",
+        "github": "Claude-Code-Community-Ireland"
+      },
+      "category": "development",
+      "tags": [
+        "code-review",
+        "pull-request",
+        "quality",
+        "security"
+      ],
+      "source": {
+        "type": "original",
+        "license": "MIT"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2025-01-29",
+      "updated": "2025-01-29"
+    },
+    {
+      "id": "skills-development-conventional-commits",
+      "type": "skill",
+      "path": "skills/development/conventional-commits",
+      "name": "Conventional Commits",
+      "description": "Generate well-formatted conventional commit messages following the Conventional Commits specification",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Community Ireland",
+        "github": "Claude-Code-Community-Ireland"
+      },
+      "category": "development",
+      "tags": [
+        "git",
+        "commits",
+        "conventional-commits",
+        "automation"
+      ],
+      "source": {
+        "type": "original",
+        "license": "MIT"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2025-01-29",
+      "updated": "2025-01-29"
+    },
+    {
+      "id": "prompts-task-prompts-debug-error",
+      "type": "prompt",
+      "path": "prompts/task-prompts/debug-error",
+      "name": "Debug Error Prompt",
+      "description": "Structured prompt template for getting help debugging errors with full context",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Community Ireland",
+        "github": "Claude-Code-Community-Ireland"
+      },
+      "category": "task-prompts",
+      "tags": [
+        "debugging",
+        "errors",
+        "troubleshooting",
+        "prompt"
+      ],
+      "source": {
+        "type": "original",
+        "license": "MIT"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2025-01-29",
+      "updated": "2025-01-29"
+    },
+    {
+      "id": "prds-templates-feature-prd",
+      "type": "prd",
+      "path": "prds/templates/feature-prd",
+      "name": "Feature PRD Template",
+      "description": "Comprehensive product requirements document template with sections for requirements, user stories, technical considerations, and success metrics",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Community Ireland",
+        "github": "Claude-Code-Community-Ireland"
+      },
+      "category": "templates",
+      "tags": [
+        "prd",
+        "product",
+        "planning",
+        "requirements"
+      ],
+      "source": {
+        "type": "original",
+        "license": "MIT"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2025-01-29",
+      "updated": "2025-01-29"
+    },
+    {
+      "id": "claude-md-by-language-python",
+      "type": "claude-md",
+      "path": "claude-md/by-language/python",
+      "name": "Python Project Template",
+      "description": "CLAUDE.md template for Python projects with best practices for style, testing, and tooling",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Community Ireland",
+        "github": "Claude-Code-Community-Ireland"
+      },
+      "category": "by-language",
+      "tags": [
+        "python",
+        "pep8",
+        "pytest",
+        "black",
+        "mypy"
+      ],
+      "source": {
+        "type": "original",
+        "license": "MIT"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2025-01-29",
+      "updated": "2025-01-29"
+    },
+    {
+      "id": "claude-md-by-framework-react",
+      "type": "claude-md",
+      "path": "claude-md/by-framework/react",
+      "name": "React Project Template",
+      "description": "CLAUDE.md template for React projects with TypeScript, testing patterns, and best practices",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Community Ireland",
+        "github": "Claude-Code-Community-Ireland"
+      },
+      "category": "by-framework",
+      "tags": [
+        "react",
+        "typescript",
+        "frontend",
+        "testing-library"
+      ],
+      "source": {
+        "type": "original",
+        "license": "MIT"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2025-01-29",
+      "updated": "2025-01-29"
+    },
+    {
+      "id": "agents-coding-refactor-agent",
+      "type": "agent",
+      "path": "agents/coding/refactor-agent",
+      "name": "Refactor Agent",
+      "description": "Specialized agent for code refactoring that improves code quality while preserving functionality",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Community Ireland",
+        "github": "Claude-Code-Community-Ireland"
+      },
+      "category": "coding",
+      "tags": [
+        "refactoring",
+        "code-quality",
+        "maintainability",
+        "agent"
+      ],
+      "source": {
+        "type": "original",
+        "license": "MIT"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2025-01-29",
+      "updated": "2025-01-29"
+    }
+  ]
+}
