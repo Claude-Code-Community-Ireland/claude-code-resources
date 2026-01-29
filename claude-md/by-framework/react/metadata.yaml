@@ -1,0 +1,21 @@
+name: "React Project Template"
+description: "CLAUDE.md template for React projects with TypeScript, testing patterns, and best practices"
+version: "1.0.0"
+
+author:
+  name: "Claude Code Community Ireland"
+  github: "Claude-Code-Community-Ireland"
+
+category: "by-framework"
+tags: ["react", "typescript", "frontend", "testing-library"]
+
+source:
+  type: "original"
+  license: "MIT"
+
+compatibility:
+  claude-code-version: ">=1.0.0"
+  platforms: ["windows", "macos", "linux"]
+
+created: "2025-01-29"
+updated: "2025-01-29"

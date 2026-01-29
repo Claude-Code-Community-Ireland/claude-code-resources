@@ -1,0 +1,50 @@
+name: Suggest External Resource
+description: Suggest a resource from elsewhere on the internet
+title: "[Suggestion] "
+labels: ["suggestion", "external"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Know a great Claude Code resource? Let us know so we can include it!
+
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      description: Link to the resource
+      placeholder: "https://github.com/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource Type
+      description: What type of resource is this?
+      options:
+        - Skill
+        - Agent
+        - CLAUDE.md
+        - PRD
+        - MCP Server
+        - Collection/Repository
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Why is this useful?
+      description: Brief description of why this should be included
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License Check
+      options:
+        - label: I believe this resource has a compatible open-source license
+          required: true

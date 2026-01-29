@@ -1,0 +1,21 @@
+name: "Conventional Commits"
+description: "Generate well-formatted conventional commit messages following the Conventional Commits specification"
+version: "1.0.0"
+
+author:
+  name: "Claude Code Community Ireland"
+  github: "Claude-Code-Community-Ireland"
+
+category: "development"
+tags: ["git", "commits", "conventional-commits", "automation"]
+
+source:
+  type: "original"
+  license: "MIT"
+
+compatibility:
+  claude-code-version: ">=1.0.0"
+  platforms: ["windows", "macos", "linux"]
+
+created: "2025-01-29"
+updated: "2025-01-29"

@@ -1,0 +1,21 @@
+name: "Refactor Agent"
+description: "Specialized agent for code refactoring that improves code quality while preserving functionality"
+version: "1.0.0"
+
+author:
+  name: "Claude Code Community Ireland"
+  github: "Claude-Code-Community-Ireland"
+
+category: "coding"
+tags: ["refactoring", "code-quality", "maintainability", "agent"]
+
+source:
+  type: "original"
+  license: "MIT"
+
+compatibility:
+  claude-code-version: ">=1.0.0"
+  platforms: ["windows", "macos", "linux"]
+
+created: "2025-01-29"
+updated: "2025-01-29"

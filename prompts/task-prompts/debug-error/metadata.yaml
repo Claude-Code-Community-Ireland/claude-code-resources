@@ -1,0 +1,21 @@
+name: "Debug Error Prompt"
+description: "Structured prompt template for getting help debugging errors with full context"
+version: "1.0.0"
+
+author:
+  name: "Claude Code Community Ireland"
+  github: "Claude-Code-Community-Ireland"
+
+category: "task-prompts"
+tags: ["debugging", "errors", "troubleshooting", "prompt"]
+
+source:
+  type: "original"
+  license: "MIT"
+
+compatibility:
+  claude-code-version: ">=1.0.0"
+  platforms: ["windows", "macos", "linux"]
+
+created: "2025-01-29"
+updated: "2025-01-29"

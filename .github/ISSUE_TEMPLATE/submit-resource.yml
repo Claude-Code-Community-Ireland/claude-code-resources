@@ -1,0 +1,116 @@
+name: Submit a Resource
+description: Submit a new skill, agent, CLAUDE.md, or other resource
+title: "[Resource] "
+labels: ["submission", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Please fill out the details below.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource Type
+      description: What type of resource are you submitting?
+      options:
+        - Skill
+        - Agent
+        - CLAUDE.md
+        - PRD
+        - MCP Server Config
+        - Hook
+        - Prompt
+        - Workflow
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Resource Name
+      description: A clear, descriptive name
+      placeholder: "e.g., Git Commit Helper"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this resource do? Why is it useful?
+      placeholder: "This skill helps generate conventional commit messages..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this belong in?
+      options:
+        - development
+        - productivity
+        - devops
+        - data
+        - creative
+        - research
+        - coding
+        - analysis
+        - automation
+        - by-language
+        - by-framework
+        - by-role
+        - by-project-type
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags for searchability
+      placeholder: "git, commits, automation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Resource Content
+      description: Paste the resource content here (skill.md, CLAUDE.md, etc.)
+      render: markdown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source
+    attributes:
+      label: Source
+      description: Is this original or adapted from somewhere?
+      options:
+        - Original (I created this)
+        - Adapted (modified from another source)
+        - Scraped (copied with permission)
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: If adapted/scraped, provide the original URL
+      placeholder: "https://github.com/..."
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: This resource is compatible with the MIT license
+          required: true
+        - label: I have tested this resource and it works as described
+          required: true
+        - label: This resource does not contain sensitive data or secrets
+          required: true
