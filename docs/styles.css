@@ -201,6 +201,10 @@ header h1 {
   z-index: 1000;
 }
 
+.modal.hidden {
+  display: none !important;
+}
+
 .modal-content {
   background: var(--bg-secondary);
   border-radius: 12px;

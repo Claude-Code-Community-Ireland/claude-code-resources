@@ -153,4 +153,5 @@ document.getElementById('modal').addEventListener('click', (e) => {
 });
 
 // Initialize
+document.getElementById('modal').classList.add('hidden');
 loadCatalog();
