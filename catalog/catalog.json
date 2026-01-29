@@ -1,25 +1,59 @@
 {
   "version": "1.0.0",
-  "generated": "2026-01-29T17:40:26.662Z",
+  "generated": "2026-01-29T18:09:19.547Z",
   "stats": {
-    "total": 7,
+    "total": 15,
     "byType": {
       "skill": 2,
       "agent": 1,
-      "claude-md": 2,
+      "claude-md": 10,
       "prd": 1,
       "prompt": 1
     },
     "byCategory": {
       "development": 2,
       "coding": 1,
-      "by-framework": 1,
-      "by-language": 1,
+      "by-framework": 3,
+      "by-language": 3,
+      "by-project-type": 4,
       "templates": 1,
       "task-prompts": 1
     }
   },
   "resources": [
+    {
+      "id": "claude-md-by-project-type-ai-chatbot-ai-chatbot-app",
+      "type": "claude-md",
+      "path": "claude-md/by-project-type/ai-chatbot/ai-chatbot-app",
+      "name": "Ai Chatbot App",
+      "description": "Powers chatkit.link. Try out workflows built with OpenAI's new agent builder.",
+      "version": "1.0.0",
+      "author": {
+        "name": "exiao",
+        "github": "exiao"
+      },
+      "category": "by-project-type",
+      "tags": [
+        "ai-chatbot",
+        "scraped",
+        "claude-md"
+      ],
+      "source": {
+        "type": "scraped",
+        "url": "https://github.com/exiao/chatkit-link/blob/ca640c702effa7a17f5cbe724f606039e0c855bc/claude.md",
+        "license": "Unknown"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2026-01-29",
+      "updated": "2026-01-29"
+    },
     {
       "id": "skills-development-code-reviewer",
       "type": "skill",
@@ -153,6 +187,138 @@
       "updated": "2025-01-29"
     },
     {
+      "id": "claude-md-by-language-go-go-dns-server",
+      "type": "claude-md",
+      "path": "claude-md/by-language/go/go-dns-server",
+      "name": "Go Dns Server",
+      "description": "CLAUDE.md from piwi3910/dns-go",
+      "version": "1.0.0",
+      "author": {
+        "name": "piwi3910",
+        "github": "piwi3910"
+      },
+      "category": "by-language",
+      "tags": [
+        "go",
+        "scraped",
+        "claude-md"
+      ],
+      "source": {
+        "type": "scraped",
+        "url": "https://github.com/piwi3910/dns-go/blob/7af0d6581264e836e169bd0edab0694cfdf20c87/CLAUDE.md",
+        "license": "Unknown"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2026-01-29",
+      "updated": "2026-01-29"
+    },
+    {
+      "id": "claude-md-by-framework-nextjs-supabase-nextjs-supabase-sanity",
+      "type": "claude-md",
+      "path": "claude-md/by-framework/nextjs-supabase/nextjs-supabase-sanity",
+      "name": "Nextjs Supabase Sanity",
+      "description": "Monorepo that uses Next.js, Supabase for it's database and Sanity for it's blog CMS",
+      "version": "1.0.0",
+      "author": {
+        "name": "martink-rsa",
+        "github": "martink-rsa"
+      },
+      "category": "by-framework",
+      "tags": [
+        "nextjs-supabase",
+        "scraped",
+        "claude-md"
+      ],
+      "source": {
+        "type": "scraped",
+        "url": "https://github.com/martink-rsa/quickstarter-1-monorepo-nextjs-supabase-with-sanity-blog/blob/2f641a8d1fa330f1994cf7659da49fa476a0d86e/CLAUDE.md",
+        "license": "Unknown"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2026-01-29",
+      "updated": "2026-01-29"
+    },
+    {
+      "id": "claude-md-by-project-type-devops-nix-user-config",
+      "type": "claude-md",
+      "path": "claude-md/by-project-type/devops/nix-user-config",
+      "name": "Nix User Config",
+      "description": "My Nix user configs for use on macOS, Ubuntu, and NixOS.",
+      "version": "1.0.0",
+      "author": {
+        "name": "matthewfallshaw",
+        "github": "matthewfallshaw"
+      },
+      "category": "by-project-type",
+      "tags": [
+        "devops",
+        "scraped",
+        "claude-md"
+      ],
+      "source": {
+        "type": "scraped",
+        "url": "https://github.com/matthewfallshaw/nixpkgs/blob/bb7689681b47f8b151a257e6037b0a7816769eed/CLAUDE.md",
+        "license": "Unknown"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2026-01-29",
+      "updated": "2026-01-29"
+    },
+    {
+      "id": "claude-md-by-language-php-php-analytics-tracker",
+      "type": "claude-md",
+      "path": "claude-md/by-language/php/php-analytics-tracker",
+      "name": "Php Analytics Tracker",
+      "description": "Snowplow event tracker for PHP. Add analytics into your PHP apps and scripts",
+      "version": "1.0.0",
+      "author": {
+        "name": "snowplow",
+        "github": "snowplow"
+      },
+      "category": "by-language",
+      "tags": [
+        "php",
+        "scraped",
+        "claude-md"
+      ],
+      "source": {
+        "type": "scraped",
+        "url": "https://github.com/snowplow/snowplow-php-tracker/blob/8bafc6640af4e781ad5d30a56155d53cc437482a/CLAUDE.md",
+        "license": "Unknown"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2026-01-29",
+      "updated": "2026-01-29"
+    },
+    {
       "id": "claude-md-by-language-python",
       "type": "claude-md",
       "path": "claude-md/by-language/python",
@@ -185,6 +351,39 @@
       },
       "created": "2025-01-29",
       "updated": "2025-01-29"
+    },
+    {
+      "id": "claude-md-by-framework-react-native-react-native-marketplace",
+      "type": "claude-md",
+      "path": "claude-md/by-framework/react-native/react-native-marketplace",
+      "name": "React Native Marketplace",
+      "description": "Crowbar Mobile - React Native marketplace app for mystery boxes",
+      "version": "1.0.0",
+      "author": {
+        "name": "aguileraz",
+        "github": "aguileraz"
+      },
+      "category": "by-framework",
+      "tags": [
+        "react-native",
+        "scraped",
+        "claude-md"
+      ],
+      "source": {
+        "type": "scraped",
+        "url": "https://github.com/aguileraz/crowbar-mobile/blob/bbafeba00b6797e59086ac5730bddd6c5f1da016/CLAUDE.md",
+        "license": "Unknown"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2026-01-29",
+      "updated": "2026-01-29"
     },
     {
       "id": "claude-md-by-framework-react",
@@ -251,6 +450,72 @@
       },
       "created": "2025-01-29",
       "updated": "2025-01-29"
+    },
+    {
+      "id": "claude-md-by-project-type-robotics-robotics-bot",
+      "type": "claude-md",
+      "path": "claude-md/by-project-type/robotics/robotics-bot",
+      "name": "Robotics Bot",
+      "description": "New version of Daphbot using the basic_bot framework",
+      "version": "1.0.0",
+      "author": {
+        "name": "littlebee",
+        "github": "littlebee"
+      },
+      "category": "by-project-type",
+      "tags": [
+        "robotics",
+        "scraped",
+        "claude-md"
+      ],
+      "source": {
+        "type": "scraped",
+        "url": "https://github.com/littlebee/daphbot-due/blob/f4a918ab1859d83011c9550f96ad38f4c75ea6d7/CLAUDE.md",
+        "license": "Unknown"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2026-01-29",
+      "updated": "2026-01-29"
+    },
+    {
+      "id": "claude-md-by-project-type-scientific-scientific-computing",
+      "type": "claude-md",
+      "path": "claude-md/by-project-type/scientific/scientific-computing",
+      "name": "Scientific Computing",
+      "description": "An extensible framework for multiphase flows with complex rheology, built on Basilisk C",
+      "version": "1.0.0",
+      "author": {
+        "name": "comphy-lab",
+        "github": "comphy-lab"
+      },
+      "category": "by-project-type",
+      "tags": [
+        "scientific",
+        "scraped",
+        "claude-md"
+      ],
+      "source": {
+        "type": "scraped",
+        "url": "https://github.com/comphy-lab/MultiRheoFlow/blob/bda13b37357ff024517d0bc23643bc64f2cd204c/CLAUDE.md",
+        "license": "Unknown"
+      },
+      "compatibility": {
+        "claude-code-version": ">=1.0.0",
+        "platforms": [
+          "windows",
+          "macos",
+          "linux"
+        ]
+      },
+      "created": "2026-01-29",
+      "updated": "2026-01-29"
     }
   ]
 }

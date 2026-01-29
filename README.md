@@ -90,9 +90,9 @@ source:
 
 ## Community
 
+- **Discord**: [Join Claude Code Community Ireland](https://discord.gg/QHjX4VYs9J)
 - **GitHub Discussions**: Ask questions, share ideas
 - **Issues**: Report bugs, request features
-- **Discord**: [Join our community](#) (coming soon)
 
 ## Moderators
 
