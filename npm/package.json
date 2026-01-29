@@ -1,0 +1,36 @@
+{
+  "name": "vibeworks-library",
+  "version": "1.0.0",
+  "description": "Developer workflow skills, agents, and commands for Claude Code — TDD, debugging, code review, architecture, security, and more",
+  "license": "MIT",
+  "author": "Vibeworks <hello@vibeworks.dev>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibeworks/vibeworks-library"
+  },
+  "homepage": "https://github.com/vibeworks/vibeworks-library#readme",
+  "bin": {
+    "vibeworks-library": "./bin/vibeworks.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude",
+    "ai",
+    "developer-tools",
+    "skills",
+    "agents",
+    "tdd",
+    "code-review",
+    "debugging",
+    "architecture",
+    "security",
+    "workflow"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

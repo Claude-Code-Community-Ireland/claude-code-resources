@@ -1,0 +1,16 @@
+{
+  "description": "Vibeworks Library hooks — gentle workflow reminders",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/test-reminder.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

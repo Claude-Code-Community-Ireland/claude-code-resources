@@ -1,0 +1,24 @@
+{
+  "name": "vibeworks-library",
+  "owner": {
+    "name": "Vibeworks",
+    "email": "hello@vibeworks.dev"
+  },
+  "metadata": {
+    "description": "Comprehensive developer workflow library with skills, agents, and commands for TDD, debugging, code review, architecture, documentation, security, and git workflows",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "vibeworks-library",
+      "source": "./plugins/vibeworks-library",
+      "description": "Complete developer workflow toolkit — 18 skills, 8 agents, 10 commands covering TDD, debugging, code review, git workflows, architecture, API design, error handling, testing strategy, performance, refactoring, documentation, dependency auditing, database migrations, security, logging, and incident response.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vibeworks"
+      },
+      "category": "development",
+      "tags": ["tdd", "debugging", "code-review", "architecture", "security", "testing", "git", "documentation", "developer-tools", "workflow"]
+    }
+  ]
+}

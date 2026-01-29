@@ -1,0 +1,28 @@
+{
+  "name": "vibeworks-library",
+  "version": "1.0.0",
+  "description": "Complete developer workflow toolkit. Use for TDD, debugging, code review, architecture planning, documentation, refactoring, security audits, testing strategy, git workflows, API design, error handling, performance profiling, dependency auditing, database migrations, logging, observability, and incident response. Includes 18 reference skills, 8 specialized agents, and 10 slash commands covering the full software development lifecycle.",
+  "author": {
+    "name": "Vibeworks",
+    "email": "hello@vibeworks.dev"
+  },
+  "homepage": "https://github.com/vibeworks/vibeworks-library",
+  "repository": "https://github.com/vibeworks/vibeworks-library",
+  "keywords": [
+    "tdd",
+    "testing",
+    "debugging",
+    "code-review",
+    "architecture",
+    "documentation",
+    "refactoring",
+    "security",
+    "git",
+    "workflow",
+    "api-design",
+    "performance",
+    "incident-response",
+    "developer-tools"
+  ],
+  "license": "MIT"
+}
