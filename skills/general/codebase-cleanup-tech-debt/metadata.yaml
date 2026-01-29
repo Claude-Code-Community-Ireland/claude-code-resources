@@ -1,0 +1,27 @@
+name: Codebase Cleanup Tech Debt
+description: >-
+  You are a technical debt expert specializing in identifying, quantifying, and
+  prioritizing technical debt in software projects. Analyze the codebase to
+  uncover debt, assess its impact, and create acti
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/codebase-cleanup-tech-debt
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

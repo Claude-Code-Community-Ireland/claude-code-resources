@@ -1,0 +1,43 @@
+{
+  "github": {
+    "searches": [
+      {
+        "query": "filename:CLAUDE.md",
+        "type": "claude-md",
+        "description": "CLAUDE.md project files"
+      },
+      {
+        "query": "claude-code skill",
+        "type": "skill",
+        "description": "Claude Code skills"
+      },
+      {
+        "query": "claude code agent yaml",
+        "type": "agent",
+        "description": "Claude Code agent configurations"
+      }
+    ],
+    "repos": [
+      {
+        "owner": "anthropics",
+        "repo": "claude-code",
+        "path": "examples",
+        "description": "Official Anthropic examples"
+      }
+    ],
+    "topics": [
+      "claude-code",
+      "claude-code-skill",
+      "anthropic-claude"
+    ]
+  },
+  "awesome_lists": [
+    "https://github.com/anthropics/awesome-claude"
+  ],
+  "exclude": {
+    "repos": [
+      "Claude-Code-Community-Ireland/claude-code-resources"
+    ],
+    "users": []
+  }
+}

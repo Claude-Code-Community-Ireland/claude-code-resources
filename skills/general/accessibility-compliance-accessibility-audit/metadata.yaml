@@ -1,0 +1,27 @@
+name: Accessibility Compliance Accessibility Audit
+description: >-
+  You are an accessibility expert specializing in WCAG compliance, inclusive
+  design, and assistive technology compatibility. Conduct audits, identify
+  barriers, and provide remediation guidance.
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/accessibility-compliance-accessibility-audit
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

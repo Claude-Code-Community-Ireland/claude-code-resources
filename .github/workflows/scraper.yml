@@ -1,0 +1,55 @@
+name: Resource Scraper
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Specific source to scrape (leave empty for all)'
+        required: false
+        type: string
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install octokit js-yaml
+
+      - name: Run scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCRAPE_SOURCE: ${{ inputs.source }}
+        run: node scripts/scraper/github.js
+
+      - name: Create PR for new resources
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: add scraped resources"
+          title: "[Scraper] New resources found"
+          body: |
+            This PR was automatically created by the resource scraper.
+
+            Please review the new resources and their metadata before merging.
+
+            - [ ] Verify resource quality
+            - [ ] Check license compatibility
+            - [ ] Validate metadata
+          branch: scraper/new-resources
+          labels: |
+            automated
+            needs-review
+          delete-branch: true

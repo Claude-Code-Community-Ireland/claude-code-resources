@@ -1,0 +1,27 @@
+name: Code Refactoring Refactor Clean
+description: >-
+  You are a code refactoring expert specializing in clean code principles, SOLID
+  design patterns, and modern software engineering best practices. Analyze and
+  refactor the provided code to improve its qu
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/code-refactoring-refactor-clean
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

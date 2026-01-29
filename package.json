@@ -1,0 +1,27 @@
+{
+  "name": "claude-code-resources",
+  "version": "1.0.0",
+  "description": "A community-curated collection of Claude Code skills, agents, CLAUDE.md files, PRDs, prompts, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claude-Code-Community-Ireland/claude-code-resources.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Claude-Code-Community-Ireland/claude-code-resources/issues"
+  },
+  "homepage": "https://github.com/Claude-Code-Community-Ireland/claude-code-resources#readme",
+  "devDependencies": {
+    "js-yaml": "^4.1.1"
+  },
+  "dependencies": {
+    "octokit": "^5.0.5"
+  }
+}

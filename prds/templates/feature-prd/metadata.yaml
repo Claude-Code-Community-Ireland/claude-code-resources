@@ -1,0 +1,21 @@
+name: "Feature PRD Template"
+description: "Comprehensive product requirements document template with sections for requirements, user stories, technical considerations, and success metrics"
+version: "1.0.0"
+
+author:
+  name: "Claude Code Community Ireland"
+  github: "Claude-Code-Community-Ireland"
+
+category: "templates"
+tags: ["prd", "product", "planning", "requirements"]
+
+source:
+  type: "original"
+  license: "MIT"
+
+compatibility:
+  claude-code-version: ">=1.0.0"
+  platforms: ["windows", "macos", "linux"]
+
+created: "2025-01-29"
+updated: "2025-01-29"

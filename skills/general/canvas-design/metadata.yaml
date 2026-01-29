@@ -1,0 +1,27 @@
+name: Canvas Design
+description: >-
+  Create beautiful visual art in .png and .pdf documents using design
+  philosophy. You should use this skill when the user asks to create a poster,
+  piece of art, design, or other static piece. Create ori
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/canvas-design
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

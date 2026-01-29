@@ -1,0 +1,27 @@
+name: Bats Testing Patterns
+description: >-
+  Master Bash Automated Testing System (Bats) for comprehensive shell script
+  testing. Use when writing tests for shell scripts, CI/CD pipelines, or
+  requiring test-driven development of shell utilities.
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/bats-testing-patterns
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

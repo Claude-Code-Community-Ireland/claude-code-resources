@@ -1,0 +1,27 @@
+name: Form Cro
+description: >-
+  Optimize any form that is NOT signup or account registration — including lead
+  capture, contact, demo request, application, survey, quote, and checkout
+  forms. Use when the goal is to increase form comp
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: automation
+tags:
+  - automation
+  - agent
+  - imported
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/form-cro
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

@@ -1,0 +1,24 @@
+name: Snowplow Php Tracker
+description: Snowplow event tracker for PHP. Add analytics into your PHP apps and scripts
+version: 1.0.0
+author:
+  name: snowplow
+  github: snowplow
+category: devops
+tags:
+  - devops
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/snowplow/snowplow-php-tracker/blob/8bafc6640af4e781ad5d30a56155d53cc437482a/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

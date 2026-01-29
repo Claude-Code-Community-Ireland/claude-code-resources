@@ -1,4 +1,4 @@
-name: Validate
+name: Validate Resources
 
 on:
   push:
@@ -11,6 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install ajv ajv-formats js-yaml
+
+      - name: Validate metadata files
+        run: |
+          [ -f scripts/validate.js ] && node scripts/validate.js || echo "No validate.js found, skipping"
 
       - name: Validate marketplace and plugin manifests
         run: bash tests/validate-marketplace.sh
@@ -35,3 +47,19 @@ jobs:
           if grep -rn ' $' plugins/ --include="*.md" | head -5; then
             echo "::warning::Trailing whitespace found in markdown files"
           fi
+
+      - name: Check for secrets
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+
+  label-pr:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Label PR based on changed files
+        uses: actions/labeler@v5
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

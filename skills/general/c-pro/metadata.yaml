@@ -1,0 +1,26 @@
+name: C Pro
+description: >-
+  Write efficient C code with proper memory management, pointer arithmetic, and
+  system calls. Handles embedded systems, kernel modules, and
+  performance-critical code. Use PROACTIVELY for C optimization,
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/c-pro
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

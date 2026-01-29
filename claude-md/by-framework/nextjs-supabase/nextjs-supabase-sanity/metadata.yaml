@@ -1,0 +1,26 @@
+name: Nextjs Supabase Sanity
+description: >-
+  Monorepo that uses Next.js, Supabase for it's database and Sanity for it's
+  blog CMS
+version: 1.0.0
+author:
+  name: martink-rsa
+  github: martink-rsa
+category: by-framework
+tags:
+  - nextjs-supabase
+  - scraped
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/martink-rsa/quickstarter-1-monorepo-nextjs-supabase-with-sanity-blog/blob/2f641a8d1fa330f1994cf7659da49fa476a0d86e/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

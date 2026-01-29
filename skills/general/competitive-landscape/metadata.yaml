@@ -1,0 +1,27 @@
+name: Competitive Landscape
+description: >-
+  This skill should be used when the user asks to "analyze competitors", "assess
+  competitive landscape", "identify differentiation", "evaluate market
+  positioning", "apply Porter's Five Forces", or reque
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/competitive-landscape
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

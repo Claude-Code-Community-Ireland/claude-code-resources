@@ -1,0 +1,24 @@
+name: Pjalgotrader.Github.Io
+description: 'My public website '
+version: 1.0.0
+author:
+  name: PJalgotrader
+  github: PJalgotrader
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/PJalgotrader/pjalgotrader.github.io/blob/d9cd5cb24ed7b1f0f46e64bd9d1ad00d87ca21fa/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

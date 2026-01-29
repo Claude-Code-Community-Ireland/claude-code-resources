@@ -1,0 +1,24 @@
+name: Si Systems V5
+description: Enhanced AI Interaction Model
+version: 1.0.0
+author:
+  name: daffy0208
+  github: daffy0208
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/daffy0208/si-systems-v5/blob/640d1d67acb9274a39ba9bff7499cea0c39db05e/claude.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

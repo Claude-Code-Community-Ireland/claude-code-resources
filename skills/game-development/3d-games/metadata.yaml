@@ -1,0 +1,24 @@
+name: 3d Games
+description: 3D game development principles. Rendering, shaders, physics, cameras.
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: game-development
+tags:
+  - game-development
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/game-development/3d-games
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

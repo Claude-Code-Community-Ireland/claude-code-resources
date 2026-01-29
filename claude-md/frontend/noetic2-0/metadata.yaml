@@ -1,0 +1,24 @@
+name: Noetic2.0
+description: CLAUDE.md from myspacecornelius/Noetic2.0
+version: 1.0.0
+author:
+  name: myspacecornelius
+  github: myspacecornelius
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/myspacecornelius/Noetic2.0/blob/5259a976d362e97e26e55d98444f6a7b29f0061f/claude.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

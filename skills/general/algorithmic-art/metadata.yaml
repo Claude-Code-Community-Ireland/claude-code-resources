@@ -1,0 +1,27 @@
+name: Algorithmic Art
+description: >-
+  Creating algorithmic art using p5.js with seeded randomness and interactive
+  parameter exploration. Use this when users request creating art using code,
+  generative art, algorithmic art, flow fields, or
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/algorithmic-art
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

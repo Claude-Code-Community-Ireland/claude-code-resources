@@ -1,0 +1,27 @@
+name: Computer Use Agents
+description: >-
+  Build AI agents that interact with computers like humans do - viewing screens,
+  moving cursors, clicking buttons, and typing text. Covers Anthropic's Computer
+  Use, OpenAI's Operator/CUA, and open-sourc
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: automation
+tags:
+  - automation
+  - agent
+  - imported
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/computer-use-agents
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

@@ -1,0 +1,21 @@
+name: "Python Project Template"
+description: "CLAUDE.md template for Python projects with best practices for style, testing, and tooling"
+version: "1.0.0"
+
+author:
+  name: "Claude Code Community Ireland"
+  github: "Claude-Code-Community-Ireland"
+
+category: "by-language"
+tags: ["python", "pep8", "pytest", "black", "mypy"]
+
+source:
+  type: "original"
+  license: "MIT"
+
+compatibility:
+  claude-code-version: ">=1.0.0"
+  platforms: ["windows", "macos", "linux"]
+
+created: "2025-01-29"
+updated: "2025-01-29"

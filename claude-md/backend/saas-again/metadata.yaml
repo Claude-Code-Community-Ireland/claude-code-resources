@@ -1,0 +1,24 @@
+name: Saas Again
+description: CLAUDE.md from KUBAKY/saas-again
+version: 1.0.0
+author:
+  name: KUBAKY
+  github: KUBAKY
+category: backend
+tags:
+  - backend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/KUBAKY/saas-again/blob/c5c0b53a3684a5a130df836d531041fe09eb6662/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

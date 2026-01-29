@@ -1,0 +1,27 @@
+name: Ai Product
+description: >-
+  Every product will be AI-powered. The question is whether you'll build it
+  right or ship a demo that falls apart in production.  This skill covers LLM
+  integration patterns, RAG architecture, prompt eng
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/ai-product
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

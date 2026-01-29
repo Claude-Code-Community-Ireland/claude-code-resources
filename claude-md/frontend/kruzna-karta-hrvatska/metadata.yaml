@@ -1,0 +1,24 @@
+name: Kruzna Karta Hrvatska
+description: CLAUDE.md from JS1240/kruzna-karta-hrvatska
+version: 1.0.0
+author:
+  name: JS1240
+  github: JS1240
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/JS1240/kruzna-karta-hrvatska/blob/0389aaaffc4ec70923a9cec64a571d797d14eb11/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

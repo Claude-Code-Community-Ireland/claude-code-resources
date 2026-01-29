@@ -1,0 +1,27 @@
+name: Binary Analysis Patterns
+description: >-
+  Master binary analysis patterns including disassembly, decompilation, control
+  flow analysis, and code pattern recognition. Use when analyzing executables,
+  understanding compiled code, or performing st
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/binary-analysis-patterns
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Resource Metadata",
+  "description": "Schema for Claude Code resource metadata files",
+  "type": "object",
+  "required": ["name", "description", "author", "category", "tags", "source", "created"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the resource",
+      "minLength": 3,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "description": "Clear description of what this resource does",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of the resource",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "default": "1.0.0"
+    },
+    "author": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Author's display name"
+        },
+        "github": {
+          "type": "string",
+          "description": "Author's GitHub username"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Author's email (optional)"
+        }
+      }
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary category of the resource",
+      "enum": [
+        "development",
+        "productivity",
+        "devops",
+        "data",
+        "creative",
+        "research",
+        "coding",
+        "analysis",
+        "automation",
+        "by-language",
+        "by-framework",
+        "by-role",
+        "by-project-type",
+        "templates",
+        "examples",
+        "configs",
+        "system-prompts",
+        "task-prompts"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Searchable tags for the resource",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 30
+      },
+      "minItems": 1,
+      "maxItems": 10
+    },
+    "source": {
+      "type": "object",
+      "required": ["type", "license"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Origin of the resource",
+          "enum": ["original", "scraped", "adapted"]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Source URL if scraped or adapted"
+        },
+        "license": {
+          "type": "string",
+          "description": "License of the resource",
+          "examples": ["MIT", "Apache-2.0", "CC-BY-4.0", "Unlicense"]
+        }
+      }
+    },
+    "compatibility": {
+      "type": "object",
+      "properties": {
+        "claude-code-version": {
+          "type": "string",
+          "description": "Minimum Claude Code version",
+          "default": ">=1.0.0"
+        },
+        "platforms": {
+          "type": "array",
+          "description": "Supported platforms",
+          "items": {
+            "type": "string",
+            "enum": ["windows", "macos", "linux"]
+          },
+          "default": ["windows", "macos", "linux"]
+        }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "description": "Usage statistics (auto-populated)",
+      "properties": {
+        "downloads": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "stars": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        }
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date",
+      "description": "Date resource was created (YYYY-MM-DD)"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date resource was last updated (YYYY-MM-DD)"
+    }
+  }
+}

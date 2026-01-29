@@ -1,0 +1,27 @@
+name: Bun Development
+description: >-
+  Modern JavaScript/TypeScript development with Bun runtime. Covers package
+  management, bundling, testing, and migration from Node.js. Use when working
+  with Bun, optimizing JS/TS development speed, or m
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/bun-development
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

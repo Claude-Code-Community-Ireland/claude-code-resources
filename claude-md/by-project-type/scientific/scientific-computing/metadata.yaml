@@ -1,0 +1,26 @@
+name: Scientific Computing
+description: >-
+  An extensible framework for multiphase flows with complex rheology, built on
+  Basilisk C
+version: 1.0.0
+author:
+  name: comphy-lab
+  github: comphy-lab
+category: by-project-type
+tags:
+  - scientific
+  - scraped
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/comphy-lab/MultiRheoFlow/blob/bda13b37357ff024517d0bc23643bc64f2cd204c/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

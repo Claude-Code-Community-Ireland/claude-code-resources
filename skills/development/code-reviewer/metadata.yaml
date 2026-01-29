@@ -1,0 +1,21 @@
+name: "Code Reviewer"
+description: "Perform thorough, constructive code reviews checking for correctness, security, performance, and maintainability"
+version: "1.0.0"
+
+author:
+  name: "Claude Code Community Ireland"
+  github: "Claude-Code-Community-Ireland"
+
+category: "development"
+tags: ["code-review", "pull-request", "quality", "security"]
+
+source:
+  type: "original"
+  license: "MIT"
+
+compatibility:
+  claude-code-version: ">=1.0.0"
+  platforms: ["windows", "macos", "linux"]
+
+created: "2025-01-29"
+updated: "2025-01-29"

@@ -1,0 +1,24 @@
+name: Robotics Bot
+description: New version of Daphbot using the basic_bot framework
+version: 1.0.0
+author:
+  name: littlebee
+  github: littlebee
+category: by-project-type
+tags:
+  - robotics
+  - scraped
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/littlebee/daphbot-due/blob/f4a918ab1859d83011c9550f96ad38f4c75ea6d7/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

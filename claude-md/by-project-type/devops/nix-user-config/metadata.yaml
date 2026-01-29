@@ -1,0 +1,24 @@
+name: Nix User Config
+description: My Nix user configs for use on macOS, Ubuntu, and NixOS.
+version: 1.0.0
+author:
+  name: matthewfallshaw
+  github: matthewfallshaw
+category: by-project-type
+tags:
+  - devops
+  - scraped
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/matthewfallshaw/nixpkgs/blob/bb7689681b47f8b151a257e6037b0a7816769eed/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'
