@@ -1,0 +1,24 @@
+name: Ysba Live
+description: YSBA Live Standings and Schedules
+version: 1.0.0
+author:
+  name: adro21
+  github: adro21
+category: nodejs
+tags:
+  - nodejs
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/adro21/ysba-live/blob/c006e2ba2316f4d419680f82716bb25bde3ef669/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

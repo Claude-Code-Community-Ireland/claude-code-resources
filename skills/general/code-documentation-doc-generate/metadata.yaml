@@ -1,0 +1,27 @@
+name: Code Documentation Doc Generate
+description: >-
+  You are a documentation expert specializing in creating comprehensive,
+  maintainable documentation from code. Generate API docs, architecture
+  diagrams, user guides, and technical references using AI-po
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/code-documentation-doc-generate
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

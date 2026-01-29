@@ -1,0 +1,27 @@
+name: Email Systems
+description: >-
+  Email has the highest ROI of any marketing channel. $36 for every $1 spent.
+  Yet most startups treat it as an afterthought - bulk blasts, no
+  personalization, landing in spam folders.  This skill covers
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: coding
+tags:
+  - coding
+  - agent
+  - imported
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/email-systems
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

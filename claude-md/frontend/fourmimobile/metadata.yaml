@@ -1,0 +1,24 @@
+name: FourmiMobile
+description: CLAUDE.md from suarja/FourmiMobile
+version: 1.0.0
+author:
+  name: suarja
+  github: suarja
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/suarja/FourmiMobile/blob/9639aa1b8267a258259a6e8b598482ee0b6c4917/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

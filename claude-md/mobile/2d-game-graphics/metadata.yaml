@@ -1,0 +1,24 @@
+name: 2D_Game_Graphics
+description: CLAUDE.md from dkcharles/2D_Game_Graphics
+version: 1.0.0
+author:
+  name: dkcharles
+  github: dkcharles
+category: mobile
+tags:
+  - mobile
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/dkcharles/2D_Game_Graphics/blob/ecb6f4a89a1812e6274b58330319b462b313d854/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

@@ -1,0 +1,24 @@
+name: Kkweb
+description: CLAUDE.md from kadirkocer/kkweb
+version: 1.0.0
+author:
+  name: kadirkocer
+  github: kadirkocer
+category: nodejs
+tags:
+  - nodejs
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/kadirkocer/kkweb/blob/6f75d2fd95f56c10f2c4e5b39904893147e0eaac/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

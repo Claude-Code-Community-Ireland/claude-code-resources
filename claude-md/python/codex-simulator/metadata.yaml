@@ -1,0 +1,24 @@
+name: Codex_simulator
+description: CLAUDE.md from sokareem/codex_simulator
+version: 1.0.0
+author:
+  name: sokareem
+  github: sokareem
+category: python
+tags:
+  - python
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/sokareem/codex_simulator/blob/d85b2020ffc260a3a79a9895e7db6f485d337a72/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

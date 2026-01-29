@@ -1,0 +1,24 @@
+name: Pupper
+description: v1
+version: 1.0.0
+author:
+  name: businesswalrus
+  github: businesswalrus
+category: nodejs
+tags:
+  - nodejs
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/businesswalrus/pupper/blob/6d264b5424e8a917591412da0731fbfdabf274b4/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

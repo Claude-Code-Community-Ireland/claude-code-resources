@@ -1,0 +1,27 @@
+name: Changelog Automation
+description: >-
+  Automate changelog generation from commits, PRs, and releases following Keep a
+  Changelog format. Use when setting up release workflows, generating release
+  notes, or standardizing commit conventions.
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: automation
+tags:
+  - automation
+  - agent
+  - imported
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/changelog-automation
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

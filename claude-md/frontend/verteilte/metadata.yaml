@@ -1,0 +1,24 @@
+name: Verteilte
+description: CLAUDE.md from sheaksadi/verteilte
+version: 1.0.0
+author:
+  name: sheaksadi
+  github: sheaksadi
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/sheaksadi/verteilte/blob/fef081f29b083fb7fd94b7d30a6e7e43f77cdcd6/claude.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

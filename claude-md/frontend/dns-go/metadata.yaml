@@ -1,0 +1,24 @@
+name: Dns Go
+description: CLAUDE.md from piwi3910/dns-go
+version: 1.0.0
+author:
+  name: piwi3910
+  github: piwi3910
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/piwi3910/dns-go/blob/7af0d6581264e836e169bd0edab0694cfdf20c87/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

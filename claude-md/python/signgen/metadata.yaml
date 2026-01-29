@@ -1,0 +1,24 @@
+name: Signgen
+description: CLAUDE.md from maxwhitby/signgen
+version: 1.0.0
+author:
+  name: maxwhitby
+  github: maxwhitby
+category: python
+tags:
+  - python
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/maxwhitby/signgen/blob/4e89014b3e7e089ce457594e3894dc4f4a28aaf1/claude.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

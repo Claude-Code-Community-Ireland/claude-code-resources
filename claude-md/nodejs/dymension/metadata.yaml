@@ -1,0 +1,24 @@
+name: Dymension
+description: Dymension Hub
+version: 1.0.0
+author:
+  name: dymensionxyz
+  github: dymensionxyz
+category: nodejs
+tags:
+  - nodejs
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/dymensionxyz/dymension/blob/b6660dbad6f2dc59456a10ceeee8331e5a9052bc/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

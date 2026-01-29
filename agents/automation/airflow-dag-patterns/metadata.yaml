@@ -1,0 +1,27 @@
+name: Airflow Dag Patterns
+description: >-
+  Build production Apache Airflow DAGs with best practices for operators,
+  sensors, testing, and deployment. Use when creating data pipelines,
+  orchestrating workflows, or scheduling batch jobs.
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: automation
+tags:
+  - automation
+  - agent
+  - imported
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/airflow-dag-patterns
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

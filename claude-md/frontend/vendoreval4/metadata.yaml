@@ -1,0 +1,24 @@
+name: Vendoreval4
+description: CLAUDE.md from adamjdavidson/vendoreval4
+version: 1.0.0
+author:
+  name: adamjdavidson
+  github: adamjdavidson
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/adamjdavidson/vendoreval4/blob/9457fc6188d3850b25b3ad57d0f367ac1ae336a9/claude.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

@@ -1,0 +1,24 @@
+name: Krish Flow
+description: Agricultural Land Leasing & Return Tracker
+version: 1.0.0
+author:
+  name: isantoshsingh
+  github: isantoshsingh
+category: devops
+tags:
+  - devops
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/isantoshsingh/Krish-flow/blob/406a5fd0c0c5edbcafbad27322245202eb5347de/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

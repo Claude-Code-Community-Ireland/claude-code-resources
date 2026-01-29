@@ -1,0 +1,24 @@
+name: Murmur
+description: CLAUDE.md from KT83/murmur
+version: 1.0.0
+author:
+  name: KT83
+  github: KT83
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/KT83/murmur/blob/640e39be4453afa08240ad3737c0b81b266d2cec/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

@@ -1,0 +1,27 @@
+name: Project Rag Spaces
+description: >-
+  Project-RAG-CoWorkspace is an AI-powered co-development environment that
+  brings your entire codebase, documentation, and project artifacts into a
+  seamless, interactive workspace. Leveraging a sophisti
+version: 1.0.0
+author:
+  name: SebbyC
+  github: SebbyC
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/SebbyC/Project-Rag-Spaces/blob/ddf264499fb5f07acc6a8e34a67655964fdf76df/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

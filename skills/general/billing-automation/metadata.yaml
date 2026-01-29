@@ -1,0 +1,27 @@
+name: Billing Automation
+description: >-
+  Build automated billing systems for recurring payments, invoicing,
+  subscription lifecycle, and dunning management. Use when implementing
+  subscription billing, automating invoicing, or managing recurri
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/billing-automation
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

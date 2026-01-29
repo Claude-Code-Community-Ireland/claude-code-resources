@@ -1,0 +1,24 @@
+name: Crowbar Mobile
+description: Crowbar Mobile - React Native marketplace app for mystery boxes
+version: 1.0.0
+author:
+  name: aguileraz
+  github: aguileraz
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/aguileraz/crowbar-mobile/blob/bbafeba00b6797e59086ac5730bddd6c5f1da016/CLAUDE.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

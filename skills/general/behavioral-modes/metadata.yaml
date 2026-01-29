@@ -1,0 +1,26 @@
+name: Behavioral Modes
+description: >-
+  AI operational modes (brainstorm, implement, debug, review, teach, ship,
+  orchestrate). Use to adapt behavior based on task type.
+version: 1.0.0
+author:
+  name: antigravity-awesome-skills
+  github: sickn33
+category: general
+tags:
+  - general
+  - imported
+  - skill
+source:
+  type: scraped
+  url: >-
+    https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/behavioral-modes
+  license: Apache-2.0
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'

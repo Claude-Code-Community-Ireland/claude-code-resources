@@ -1,0 +1,24 @@
+name: Chatkit Link
+description: Powers chatkit.link. Try out workflows built with OpenAI's new agent builder.
+version: 1.0.0
+author:
+  name: exiao
+  github: exiao
+category: frontend
+tags:
+  - frontend
+  - imported
+  - claude-md
+source:
+  type: scraped
+  url: >-
+    https://github.com/exiao/chatkit-link/blob/ca640c702effa7a17f5cbe724f606039e0c855bc/claude.md
+  license: Unknown
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+created: '2026-01-29'
+updated: '2026-01-29'
