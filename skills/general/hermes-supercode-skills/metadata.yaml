@@ -1,0 +1,48 @@
+name: hermes-supercode-skills
+description: >-
+  13 production-grade Claude Code skills: db-whisperer, auth-architect,
+  obs-guardian, deploy-ninja, quantum-debugger, security-sentinel,
+  api-sculptor, pipeline-architect, ghost-scraper, mcp-conductor,
+  prediction-alpha, prompt-forge, infra-automation.
+  Install: npx hermes-skills install
+version: 1.0.0
+
+author:
+  name: mturac
+  github: mturac
+
+category: general
+tags:
+  - skill-collection
+  - database
+  - auth
+  - observability
+  - deployment
+  - debugging
+  - security
+  - api
+  - pipeline
+  - scraping
+  - mcp
+  - ml
+  - infrastructure
+  - automation
+
+source:
+  type: original
+  url: https://github.com/mturac/hermes-supercode-skills
+  license: MIT
+
+install:
+  method: npx
+  command: npx hermes-skills install
+
+compatibility:
+  claude-code-version: '>=1.0.0'
+  platforms:
+    - windows
+    - macos
+    - linux
+
+created: '2026-05-28'
+updated: '2026-05-28'
