@@ -107,3 +107,5 @@ Individual resources may have their own licenses specified in their metadata.
 ---
 
 **Run by [Claude Code Community Ireland](https://github.com/Claude-Code-Community-Ireland)**
+
+- [Context Kit](https://github.com/JDDavenport/context-kit) — 4 PCA templates (wiki, mental-models, voice, protocols) + 5 Claude Code skills. MIT.
